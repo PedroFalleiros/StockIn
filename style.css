@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.cdnfonts.com/css/coolvetica-2');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/fundolandingpage.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+header{
+    background-color: #000000;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "coolvetica";
+    font-size: 32px;
+}
+
+header p{
+    margin-left: 32px;
+}
+
+img{
+    width: 106px;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;   
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#logo-main{
+    margin: 172px 0 86px 0;
+}
+
+#logo-main img{
+    width: 160px;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputs p{
+    margin-bottom: 12px;
+}
+
+#calcular{
+    margin-bottom: 29px;
+}
+
+.inputs a{
+    text-decoration: none;
+    color:white;
+}
+
+.button{
+    border: solid 0;
+    padding: 18px 120px;
+    border-radius: 23px;
+    background-color: #1F1F1F;
+    opacity: 0.8;
+    font-size: 30px;
+}

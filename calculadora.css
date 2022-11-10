@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.cdnfonts.com/css/coolvetica-2');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/gradientbg.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+header{
+    background-color: #000000;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "coolvetica";
+    font-size: 32px;
+    margin-bottom: 41px;
+}
+
+header p{
+    margin-left: 32px;
+}
+
+img{
+    width: 106px;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+}
+
+.calculadora{
+    display: flex;
+    align-items: center;
+    color: white;
+    border: solid 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    width: 67.6rem;
+    border-radius: 38px;
+    padding: 49px 55px;
+}
+
+.calc-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.calc-input label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.calc-input input{
+    width: 403px;
+    height: 49px;
+    border-radius: 12px;
+    border: solid 0;
+    margin: 11px 0 38px 0;
+    font-size: 18px;
+    padding-left: 20px ;
+}
+
+#btn-calc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    border: solid 0;
+    width: 50%;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px 5px;
+    background-color: #1F1F1F;
+    opacity: 0.8;    
+    cursor: pointer;
+    height: 49px;
+}
+
+#btn-calc:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+    width: 374px;
+    height: 374px;
+    margin-left: 128px;
+}
+
+.resultado{
+    display: flex;
+    color: white;
+    border: solid 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    width: 67.6rem;
+    margin-top: 33px;
+    padding: 41px 55px;
+    border-radius: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+#result{
+    margin-left: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+}

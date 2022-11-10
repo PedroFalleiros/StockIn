@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>StockIn - Calculadora</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="brand-logo">
+          <img src="/images/StockIn.png">
+        </a>
+        <p>Simulador de Juros Compostos</p>
+      </header>
+      <div class="calculadora">
+        <div class="calc-input">
+          <label>Valor Inicial:</label>
+          <input type="number" id="capital" name="capital" placeholder="Digite o valor inicial..." required>
+          <label>Aportes mensais:</label>
+          <input type="number" id="aporte" name="aporte" placeholder="Digite o valor dos aportes..." required>
+          <label>Taxa de Juros (Mensal):</label>
+          <input type="number" id="juros" name="juros" placeholder="Digite a taxa de juros..." required>
+          <label>Período (Meses):</label>
+          <input type="number" id="periodo" name="periodo" placeholder="Digite o período..." required>
+          <p id="btn-calc">Calcular</p>
+        </div>
+        <div><img src="images/StockIn.png" alt="Logo da Empresa StockIn" class="logo"></div>
+      </div>
+      <div class="resultado">
+        <p>Valor ao final do período:</p>
+        <div id="result"></div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
